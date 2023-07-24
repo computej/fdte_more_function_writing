@@ -28,6 +28,6 @@ function usGallonsUsToLitres(volGallons) {
   * knowing this, it should be easy to convert, just multiply by 3.78..
   */
   const litresInGallon = 3.785411784;
-  let volLitres = volGallons * litresInGallon;
+  const volLitres = volGallons * litresInGallon;
   return volLitres;
 }
